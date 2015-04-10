@@ -27,7 +27,15 @@ class numbers:
 
 def main():
     numberL = []
-
+    #cv2.namedWindow('image0', cv2.WINDOW_NORMAL)
+    """ cv2.namedWindow('image1', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image2', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image3', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image4', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image5', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image6', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image7', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('image8', cv2.WINDOW_NORMAL)"""
 
     for x in xrange(0,9):
         nnum = numbers()
